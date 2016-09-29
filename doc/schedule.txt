@@ -1,0 +1,16 @@
+Fore of Docker Private Registry
+
+
+TODO:
+  . add and support 'ember-cli-eslint'.
+  . add and support 'ember-cli-mirage'.
+
+  . define pages.
+  . add and integrate 'ember-simple-auth'.
+
+  . update README.
+
+
+Sep.29.2016
+  . init project.
+
