@@ -3,6 +3,11 @@ Fore of Docker Private Registry
 
 TODO:
   . add and support 'ember-cli-eslint'.
+    . add 'Stylistic Issues' rules.
+    . add 'Variables' rules.
+    . add 'Best Practices' rules.
+    . add 'Possible Errors' rules.
+
   . add and support 'ember-cli-mirage'.
 
   . define pages.
@@ -10,6 +15,9 @@ TODO:
 
   . update README.
 
+
+Oct.28.2016
+  . install 'ember-cli-eslint', and add 'ECMAScript 6' rules.
 
 Sep.29.2016
   . init project.
