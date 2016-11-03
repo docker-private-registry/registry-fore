@@ -6,8 +6,8 @@ import loadInitializers from 'ember-load-initializers';
 Ember.MODEL_FACTORY_INJECTIONS = true;
 
 const App = Ember.Application.extend({
-  modulePrefix: Config.modulePrefix,
-  podModulePrefix: Config.podModulePrefix,
+  modulePrefix    : Config.modulePrefix,
+  podModulePrefix : Config.podModulePrefix,
   Resolver
 });
 
