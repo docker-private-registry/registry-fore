@@ -5,8 +5,7 @@ const Router = Ember.Router.extend({
   location  : config.locationType
 });
 
-Router.map(() => {
-});
+Router.map(() => null);
 
 export default Router;
 
