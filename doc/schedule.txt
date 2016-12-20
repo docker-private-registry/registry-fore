@@ -2,13 +2,20 @@ Fore of Docker Private Registry
 
 
 TODO:
-  . add and support 'ember-cli-mirage'.
+  . add and integrate 'ember-simple-auth'.
+    . integrate 'ember-simple-auth' with poor 'login' page.
+    . refactor 'login' page according to 'https://github.com/diacode/talkex'.
+    . impl 'auth' API test via 'ember-cli-mirage'.
 
   . define pages.
-  . add and integrate 'ember-simple-auth'.
+    . test 'curl -v --insecure https://gupeng:infected@myregistrydomain.com:5000/v2/_catalog'.
+    . review other docker APIs.
 
   . update README.
 
+
+Dec.20.2016
+  . finish 'ember-cli-mirage' doc, and integrate the addon.
 
 Nov.18.2016
   . add 'Best Practices' and 'Possible Errors' rules (finish 'ember-cli-eslint').
