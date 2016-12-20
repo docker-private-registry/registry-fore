@@ -161,7 +161,6 @@ module.exports = {
     'no-array-constructor'          : 'error',
     'no-bitwise'                    : 'error',
     'no-continue'                   : 'error',
-    'no-inline-comments'            : 'error',
     'no-lonely-if'                  : 'error',
     'no-mixed-operators'            : 'error',
     'no-mixed-spaces-and-tabs'      : 'error',
