@@ -1,0 +1,46 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-xs-offset-4 col-xs-4">
+        <form class="form-horizontal" {{action "onLogin" on="submit"}}>
+          {{#if alertMsg}}
+            <div class="form-group alert {{alertPriority}}">{{alertMsg}}</div>
+          {{/if}}
+
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon">账号</span>
+
+                {{input type="text"
+                        class="form-control required"
+                        id="identification"
+                        placeholder="请输入账号"
+                        maxlength=40
+                        value=identification
+                        required=true}}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon">密码</span>
+
+                {{input type="password"
+                        class="form-control required"
+                        id="password"
+                        placeholder="请输入密码"
+                        maxlength=20
+                        value=password
+                        required=true}}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <button type="submit" class="btn btn-default" {{bindAttr disabled="isProcessing"}}>登录</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+

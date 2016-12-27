@@ -3,7 +3,6 @@ Fore of Docker Private Registry
 
 TODO:
   . add and integrate 'ember-simple-auth'.
-    . integrate 'ember-simple-auth' with poor 'login' page.
     . refactor 'login' page according to 'https://github.com/diacode/talkex'.
     . impl 'auth' API test via 'ember-cli-mirage'.
 
@@ -13,6 +12,9 @@ TODO:
 
   . update README.
 
+
+Dec.27.2016
+  . integrate 'ember-simple-auth' with poor 'login' page.
 
 Dec.20.2016
   . finish 'ember-cli-mirage' doc, and integrate the addon.
